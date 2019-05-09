@@ -1,0 +1,21 @@
+{
+  "name": "roulette-wheel",
+  "description":"roulette wheel selection",
+  "version": "1.0.0",
+  "keywords":[
+      "evolutionary",
+      "selection",
+      "fitness",
+      "genetic",
+      "proportionate"
+  ],
+  "main":"./roulette-wheel.js",
+  "repository":"git://github.com/patrickdmiller/roulette-wheel",
+  "scripts":{
+      "test": "node test"
+  },
+  "dependencies": {
+    "mersenne-twister": "^1"
+  },
+  "files":["roulette-wheel.js","test.js"]
+}
